@@ -9,7 +9,7 @@ import time
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 poppler_path = r'C:\poppler-23.01.0\Library\bin'
-apiKey = "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"
+apiKey = "..."
 os.environ["OPENAI_API_KEY"] = apiKey
 llm = OpenAI(temperature=0.3)
 
