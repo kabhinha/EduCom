@@ -1,0 +1,104 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "study material",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you have?",
+          "Which subject notes do you want ?",
+          "Which subject lectures do you want ?",
+          "Do yo want to scan the question ?",
+          "Do yo want any solution to the question ?",
+          "Do you want physics,chemistry or maths notes ?",
+          "Do you want notes of any other subject ?",
+          "Do you want physics,chemistry or maths lectures ?",
+          "Do you want lectures of any other subject ?"
+        ],
+        "responses": [
+        "We have pdf notes , video lectures.",
+        "We have a vast collection of course notes and study materials covering diverse subjects",
+        "We have a vast collection of course lectures and study materials covering diverse subjects",
+        "If you want any solution to a particular question, you can scan it from our image to text converter and do the further research.",
+        "We have course notes and video lectures of the following subject:-\n 1.PHYSICS \n 2.CHEMISTRY \n 3.MATHEMATICS-I \n 4.MATHEMATICS -II \n 5.PROGRAMMING FOR PROBLEM SOLVING \n  6.MECHANICAL \n  7.ELECTRICAL \n  8.ELECTRONICS \n  9.SOFT SKILLS \n  10.ENVIRONMENT AND ECOLOGY \n  KINDLY CHOOSE THE SUBJECT.",
+        "For course notes , you can go to study materials, select the subject and locate course notes there."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and other UPI options",
+          "We accept most major credit cards, and  other UPI options"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "When will you hand over the delivery?",
+          "When will you hand over the shipment?",
+          "When will you dispatch the notes ?",
+          "How much time will the delivery takes time ?",
+          "How much time will the shippment takes time ?",
+          "What is the status of the order of my notes ?",
+          "How many days will it take notes to get shipped?",
+          "How many days will it take notes to get delivered?"
+        ],
+        "responses": [
+          "Delivery takes 4-5 business days",
+          "Shipping takes 4-5 business days",
+          "Visit the order section to view the status of your order.",
+          "It generally take 4-5 business day of the order to get delivered",
+          "It generally take 4-5 business day of the order to get shipped."
+        ]
+      },
+      {
+        "tag": "default",
+        "patterns": [
+          "DEFAULT"
+        ],
+        "responses": [
+        "sorry!, i don't get it."
+        ]
+      }
+    ]
+  }
