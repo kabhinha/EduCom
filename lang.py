@@ -46,7 +46,7 @@ def summary(path):
 def Summary(path, ques):
     summ = summary(path)
     time.sleep(2)
-    prompt = fr'If the summary of a topic is given as "{summ}" then tell {ques}'
+    prompt = fr'From the text "{summ}" then comprehend {ques} do not exceed 150 words if it is long'
     return llm.predict(prompt)
 
 if __name__ == '__main__':
